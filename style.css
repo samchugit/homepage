@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+}
+
+.site-container {
+	background-color: #212121;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.site-content {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+}
+
+.site-header {
+	align-items: center;
+	background-color: #212121;
+	height: 100px;
+	padding-bottom: 0px;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 30px;
+}
+
+.site-block {
+	align-items: center;
+	background-color: #212121;
+	height: 50px;
+	padding-bottom: 0px;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 30px;
+}
+
+.module-text {
+	color: #a9a9a9;
+	font-family: 'Roboto Slab', serif;
+	font-size: 26px;
+	text-align: center;
+	text-transform: none;
+}
+
+h1.masthead {
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 70px;
+	text-align: center;
+	text-transform: none;
+}
