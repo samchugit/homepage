@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="en-US">
 
 <head>
@@ -5,7 +7,21 @@
 	<title>Sam Chu - My Home Page</title>
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
-	<link rel="stylesheet" href="./style.css" type="text/css">
+	<link rel="stylesheet" href="./jscss/style.css" type="text/css">
+
+	<!-- Valentine's Day EASTER EGG -->
+	<!-- This Easter Egg ONLY can be triggered in Feb/13 23:00 to Feb/14 23:59 -->
+	<script>
+		var date = new Date();
+		redirURL = "./forFloria/forFloria.html";
+		//if (date.getMonth() == 1 && date.getDate() == 13) { // TEST USE ONLY !!!
+		if (date.getMonth() == 1 && (date.getDate() == 14 || (date.getDate() == 13 && date.getHours() >= 23))) {
+			var resp = confirm("Congratulations! Valentine's Day Surprise!\nAre you sure to redirect to the special page?");
+			if (resp) {
+				window.location.href = redirURL;
+			}
+		}
+	</script>
 </head>
 
 <body>
@@ -13,11 +29,11 @@
 		<div class="site-content">
 			<div class="site-header"></div>
 			<div>
-				<h1 class="masthead">Hi, I'm Sam Chu!</h1>
+				<h1 class="master-head">Hi, I'm Sam Chu!</h1>
 			</div>
 			<div class="site-block"></div>
 			<div class="module-text">
-				<div>I am a student now studying at UESTC.</div>
+				<div>I am a student now studying in UESTC.</div>
 				<div>I'm totally a geek, a nut and would always do creative things that you wouldn't imagine.</div>
 			</div>
 		</div>

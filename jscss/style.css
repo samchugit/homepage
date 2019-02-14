@@ -1,14 +1,14 @@
 body {
 	margin: 0;
+	background-color: #212121;
 }
 
 .site-container {
-	background-color: #212121;
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100%;
-	width: 100%;
+	height: auto;
+	width: auto;
 }
 
 .site-content {
@@ -19,7 +19,6 @@ body {
 
 .site-header {
 	align-items: center;
-	background-color: #212121;
 	height: 100px;
 	padding-bottom: 0px;
 	padding-left: 0%;
@@ -29,7 +28,6 @@ body {
 
 .site-block {
 	align-items: center;
-	background-color: #212121;
 	height: 50px;
 	padding-bottom: 0px;
 	padding-left: 0%;
@@ -45,7 +43,7 @@ body {
 	text-transform: none;
 }
 
-h1.masthead {
+h1.master-head {
 	color: #ffffff;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 70px;
